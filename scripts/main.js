@@ -3,14 +3,14 @@
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     var myH1  =document.querySelector('h1');
-    if(mySrc === 'images/d2.png')
+    if(mySrc === 'images/D2.png')
  {
-      myImage.setAttribute ('src','images/d3.png');
+      myImage.setAttribute ('src','images/D3.png');
       myH1.textContent="Mof in Crete";
     }
-if(mySrc==='images/d3.png')
+if(mySrc==='images/D3.png')
  {
-      myImage.setAttribute ('src','images/d2.png');
+      myImage.setAttribute ('src','images/D2.png');
       myH1.textContent="Cath in Crete";
     }
 }
